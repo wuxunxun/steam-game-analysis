@@ -1,0 +1,36 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+.huggingface/
+.cache/
+.vscode/
+.idea/
+
+# OS metadata and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+~$*
+
+# Source and prepared datasets stay local by default
+/data/*
+!/data/.gitkeep
