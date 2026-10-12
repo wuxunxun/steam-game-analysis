@@ -16,11 +16,17 @@ This project explores associations between Steam game attributes and popularity 
 | [Resources](resources/) | Figures, summary statistics, tables, and exported reports |
 | [Dependencies](requirements.txt) | Python packages needed to run the project |
 
+- [Main notebook](code/final_run.ipynb)
+- [Reports](docs/report/), [research papers](docs/paper/), and [references](docs/reference/)
+- [Project requirements](docs/reference/project%20requirement.docx)
+- [Images](resources/images/) and [charts](resources/charts/)
+
 ## Research foundation
 
 De Luisa, A., Hartman, J., Nabergoj, D., Pahor, S., Rus, M., Stevanoski, B., Demšar, J., & Štrumbelj, E. (2021). *Predicting the Popularity of Games on Steam*. Elektrotehniški vestnik, 88(4), 151–162.
 
 - [Published paper](https://ev.fe.uni-lj.si/4-2021/Luisa.pdf)
+- [Local paper PDF](docs/paper/Predicting%20the%20Popularity%20of%20Games%20on%20Steam.pdf)
 - [Proposed dataset: FronkonGames/steam-games-dataset](https://huggingface.co/datasets/FronkonGames/steam-games-dataset)
 - [Dataset files and versions](https://huggingface.co/datasets/FronkonGames/steam-games-dataset/tree/main)
 - [Dataset collection code](https://github.com/FronkonGames/Steam-Games-Scraper)
@@ -34,9 +40,16 @@ The release period and data collection date are different: a game released in 20
 ```text
 Steam Game Analysis/
 ├── code/
+│   └── final_run.ipynb
 ├── data/
 ├── docs/
+│   ├── report/
+│   ├── paper/
+│   └── reference/
+│       └── project requirement.docx
 ├── resources/
+│   ├── images/
+│   └── charts/
 ├── .venv/               # Local Python environment; excluded from Git
 ├── .gitignore
 ├── README.md
@@ -72,7 +85,7 @@ To use JupyterLab:
 python -m jupyterlab
 ```
 
-Analysis code will be added step by step after the research questions and dataset are confirmed. No analysis entry point exists yet.
+Open [code/final_run.ipynb](code/final_run.ipynb) to begin. It currently contains the project outline and path setup; data acquisition and analysis will be added step by step after the dataset version and research questions are confirmed.
 
 ## Data and public repository
 
