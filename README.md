@@ -4,6 +4,10 @@ Python final project using a Steam games dataset. This repository contains the n
 
 **Name:** XUN WU — 695380025-4
 
+## Video Presentation
+
+[![Watch the presentation on YouTube](https://img.youtube.com/vi/-s4h3YF71KE/hqdefault.jpg)](https://youtu.be/-s4h3YF71KE)
+
 ## Directory Structure
 
 ```text
